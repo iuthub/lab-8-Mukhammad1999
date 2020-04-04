@@ -3,8 +3,7 @@
         <div class="navbar-header">
             <a href="#" class="navbar-brand">Laravel Guide</a>
             <ul class="nav navbar-nav">
-                <li><a href="#">Blog</a></li>
-                <li><a href="jetbrains://php-storm/navigate/reference?project=lab-8-Mukhammad1999&path=resources/views/others">About</a></li>
+                <li><a href="{{ route('admin.index') }}">Posts</a></li>
             </ul>
         </div>
     </div>
