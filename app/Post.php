@@ -30,6 +30,7 @@ class Post{
         $this->session->put('posts',$posts);
     }
 
+
     private function createDummyData(){
         $posts = [
             [
